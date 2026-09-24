@@ -8,4 +8,8 @@
 
 ### Step 2: SSH Hardening
 * **EC2 Security rules:** Inbound security rules were restricted to my IP and the AWS EC2 instance prefix required for browser based SSH
-* Ran 'sudo sshd -T' to verify proper configuration
+* **Audit SSH config:** 'sudo sshd -T' to verify proper configuration
+
+### Step 3: Reviewed SSH logs
+* Given I was slow to verify SSH configuration, I was curious if there was enough time for bots to attempt logins so I checked for suspicious logins and did not find any.
+* Command: 'sudo journactl -u -ssh --since "today"' + 'last'
