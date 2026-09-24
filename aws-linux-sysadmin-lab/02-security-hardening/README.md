@@ -2,6 +2,7 @@
 
 ### Step 1: Patching
 * **Command:** 'sudo apt update && sudo apt upgrade'
+* **Goal**: update packages before installing or configuring services
 * **Troubleshooting:** ran command with 1 sudo and ran into
 * **Note:** 'apt' would be 'dnf' for Red Hat distros
 
