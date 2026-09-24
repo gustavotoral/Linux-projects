@@ -13,3 +13,7 @@
 ### Step 3: Reviewed SSH logs
 * Given I was slow to verify SSH configuration, I was curious if there was enough time for bots to attempt logins so I checked for suspicious logins and did not find any.
 * Command: 'sudo journactl -u -ssh --since "today"' + 'last'
+
+### Step 3: Audited Listening Ports
+* **Command:** 'sudo ss -tulpn'
+* Learned: tupln = tcp / udp / listening / process / numeric and that ss replaced netstat
