@@ -1,5 +1,6 @@
 # Objective:
-Provision an AWS Ubuntu EC2 Instance to simulate Linux system administration 
+Establish a cloud-hosted Linux environment for administration,
+security, automation, monitoring, and troubleshooting.
 
 # Environment:
 
